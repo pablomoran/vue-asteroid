@@ -1,7 +1,7 @@
 {
   "name": "vue-asteroid",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Vue.js plugin that makes it easy to use a Meteor application as your backend.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/pablomoran/vue-asteroid.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Pablo Moran <pablo.enrique.moran@gmail.com",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/pablomoran/vue-asteroid/issues"
   },
-  "homepage": "https://github.com/pablomoran/vue-asteroid#readme"
+  "homepage": "https://github.com/pablomoran/vue-asteroid#readme",
+  "dependencies": {
+    "asteroid": "^2.0.3"
+  }
 }
